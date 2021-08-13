@@ -1,88 +1,127 @@
+<style>
+		
+    .table {
+      display: table;
+      table-layout: fixed;
+    }
+    .table-cell {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+</style>
 
-<div style="clear: both;">   
-    <img src="/assets/img/vilbert.png" style="float: left; padding-top: 30px" height="130" width="200"  alt="">
-    <div style="float: right; width: 77%; ">
-    <div >
-        <strong> Medical-BERT: Cross-modal Pre-training with Medical Image-Text Data
-        </strong>
+<div class = "table">   
+    <div class="table-cell" width="200px"  >
+        <img src="/assets/img/vilbert.png" alt="" style="max-width:200px;">
     </div>
-    <div style= "padding-top: 8px;">
-        Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | Jun. 2021 - Present
-    </div>
-    <div style="padding-top: 8px;">
-        While vision-and-language tasks in the medical domain have extensive benefits, their development is still at the initial stage 
-        due to the limitations of current benchmarks, e.g., no visual bounding boxes. Therefore, we investigate how to design useful pre-tasks
-         to pre-train a cross-modal BERT with external image-text data for downstream tasks in the medical domain: 
-         (1) Visual question answering; (2) Image-Text retrieval; (3) Image caption generation
-        
-        <br>
-        [Code] 
-    </div>
-    </div>
-    </div>
-
-
-<div style="clear: both; padding-top: 20px;">
-    <div style="float: left; margin-right: 1em;">
-    <img src="/assets/img/med-vqa.png" height="120" width="200" alt="">
-    </div>
-    <div style="padding-left: 10em ;">
-    <strong>Introducing A New Benchmark and Building A Medical Knowledge Graph for Med-VQA
-        </strong>
-    <br>
-    Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | Jun. 2021 - Nov. 2021
-    <br>
-    
-    <br>
-    [<a>PDF</a>] [<a>Code</a>] 
+    <div style="padding-left: 1em; ">
+        <div >
+            <strong> Medical-BERT: Cross-modal Pre-training with Medical Image-Text Data</strong>
+        </div>
+        <div style= "padding-top: 3px;">
+            Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | Jun. 2021 - Present
+        </div>
+        <div style="padding-top: 3px;">
+            While vision-and-language tasks in the medical domain have extensive benefits, their development is still at the initial stage 
+            due to the limitations of current benchmarks, e.g., no visual bounding boxes. Therefore, we investigate how to design useful pre-tasks
+            to pre-train a cross-modal BERT with external image-text data for downstream tasks in the medical domain: 
+            (1) Visual question answering; (2) Image-Text retrieval; (3) Image caption generation
+            <br>
+            [Code] 
+        </div>
     </div>
 </div>
 
+<div class="table" style="padding-top: 15px;">
+    <div class="table-cell" width="200px" >
+        <img src="/assets/img/graph.png" alt="" style="max-width:200px;">
+    </div>
+    <div style="padding-left: 1em ;">
+        <div>
+            <strong> An Organ-Centered Bi-lingual Medical Knowledge Graph  </strong>
+        </div>
+        <div style= "padding-top: 3px;">
+            Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | Jun. 2021 - Nov. 2021
+        </div>
+        <div style="padding-top: 3px;">
+            Medical knowledge graphs (MKGs) play an important role in medical vision-language tasks, but most of them contain too redundant nodes or 
+            relations to be utilized. To meet the need for practical usage, I design a simple but domain-specific medical knowledge graph, which contains 
+            organ, body system, organ-related diseases, and knowledge about disease such as symptoms or causes. 
+            <br>
+            [<a>Data</a>] [<a>System</a>] <i style="color:#e74d3c">Neo4j Database</i>
+        </div>
+    </div>
+</div>
+
+
+<div class="table" style="padding-top: 15px;">
+    <div class="table-cell" width="200px">
+        <img src="/assets/img/med-vqa.png" alt="" style="max-width:200px;">
+    </div>
+    <div style="padding-left: 1em ;">
+        <div>
+            <strong>Medical Image Question Answering</strong>
+        </div>
+        <div style= "padding-top: 3px;">
+            Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | May 2020 - Present
+        </div>
+        <div style="padding-top: 3px;">
+            Medical visual question answering is a task that given a radiology iamge and a clinical question about it, system should output a correct answer. 
+            The development of it is restricted by small-scale training dataset. We push forward it by: (1) Introducing a new benchmark filling the gap toward general ones<sup>1</sup> 
+            (containing a new labeling system<sup>4</sup>);
+            (2) Enhancing reasoning ability of model<sup>2</sup>; (3) Designing a new pre-training framework for visual feature extractor<sup>3</sup>
+            <br>
+            [<a>PDF<sup>1</sup></a>], [<a>PDF<sup>2</sup></a>], [<a>PDF<sup>3</sup></a>], [<a>Code<sup>4</sup></a>] <i style="color:#e74d3c">PyQT5 Application</i>
+        </div>
+    </div>
+</div>
 
 
 
-<div style="clear: both;">
-<div style="float: left; margin-right: 1em;">
-    <img src="/assets/img/med-vqa.png" height="120" width="200" alt="">
-</div>
-<div style="padding-left: 10em ;">
-    <strong>Medical Image Question Answering
-    </strong>
-    <br>
-    Advisor: Xiaoming Wu | The Hong Kong Polytechnic University | May 2020 - Present
-    <br>
-    
-    <br>
-    [<a>PDF</a>] [<a>Code<sup>1</sup></a>] 
-</div>
-</div>
-
-
-
-<div style="clear: both;">
-<div style="float: left; margin-right: 1em;">
-    <img src="assets/img/ctv.png" height="130" width="200" alt="">
-</div>
-<div style="padding-left: 10em ;">
-    <strong>Automated Contouring of Esophagus Clinical Target Volumes and Organs at Risk by Using Deep Neural Networks
-    </strong>
-    <br>
-    Advisor: Yi Zhang | Sichuan University | Jun. 2019 - Dec. 2019
-    <br>
-    [<a>PDF</a>] [<a>Code</a>] 
-</div>
+<div class="table" style="padding-top: 15px;">
+    <div class="table-cell" width="200px">
+        <img src="assets/img/ctv.png" alt="" style="max-width:200px;">
+    </div>
+    <div style="padding-left: 1em ;">
+        <div>
+            <strong>Automated Contouring of Esophagus Clinical Target Volumes and Organs at Risk by Using Deep Neural Networks </strong>
+        </div>
+        <div style= "padding-top: 3px;">
+            Advisor: Yi Zhang | Sichuan University | Jun. 2019 - Dec. 2019
+        </div>
+        <div style="padding-top: 3px;">
+            An effective way to cure esophageal cancer is radiotherapy treatment, in which precise contouring of clinical target 
+            volume and organs at risk is a vital step.  This task is challenging especially for the esophagus due to its versatile 
+            and irregular shape and poor contrast to neighboring tissues. To overcome it, I propose a 2D end-to-end segment network 
+            named Attention Dual-Path U-Net (ADPU), which incorporates dual-path network and attention mechanism into U-Net and achieves 
+            state-of-the-art results in fewer parameters.
+            <br>
+            [<a>PDF</a>] [<a>Code</a>] 
+        </div>   
+    </div>
 </div>
 
-<div style="clear: both;">
-<div style="float: left; margin-right: 1em;">
-    <img src="assets/img/abnormal.png" height="130" width="200" alt="">
+<div class="table" style="padding-top: 15px;">
+    <div class="table-cell" width="200px">
+        <img src="assets/img/abnormal.png" alt="" style="max-width:200px;">
+    </div>
+    <div style="padding-left: 1em ;">
+        <div>
+            <strong>Anomaly Image Detection in Plant Image Dataset</strong> 
+        </div>
+        <div style= "padding-top: 3px;">
+            Advisor: Yi Zhang | Sichuan University | Jan. 2019 - May 2019
+        </div>
+        <div style= "padding-top: 3px;">
+            When a plant network recognizes the species of a plant image during the test phase, it may meet an image outside the “normal distribution” of 
+            what plants look like, and fail to distinguish it. To avoid that, I 
+            use the ImageNet dataset (except plant) to imitate the anomaly distribution and original plant dataset as the normal distribution, and  
+            train an additional model to do two-way classification, helping plant network refuse non-plant image. 
+            <br>
+            [<a>PDF</a>] [<a>Code</a>]
+        </div>
+    </div>
 </div>
-<div style="padding-left: 10em ;">
-    <strong>Abnormal Image Detection in Plant Image Dataset</strong> 
-    <br>
-    Advisor: Yi Zhang | Sichuan University | Jan. 2019 - May 2019
-    <br>
-    [<a href="assets/papers/ACL-2021-OOS.pdf">PDF</a>] [<a href="https:// github.com/liam0949/DCLOOS">Code</a>] 
-</div>
-</div>
+
 

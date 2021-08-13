@@ -27,8 +27,6 @@ Email: boliu.kelvin@gmail.com
 
 ## Publications
 <HR>
-
-
 {% include module.html%}
 <br>
 
@@ -37,13 +35,10 @@ Email: boliu.kelvin@gmail.com
 <HR>
 {% include research.html%}
 <br>
-<br>
 
 ## Selected Projects
 <HR>
 {% include project.html%}
-
-<br>
 <br>
 
 
