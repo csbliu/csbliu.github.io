@@ -6,9 +6,9 @@ layout: homepage
 
 I am a first-year M.Phil. student at The Hong Kong Polytechnic University.
 <br>
-Email: boliu.kelvin@gmail.com
+Email: boliu [dot] kelvin [at] gmail [dot] com
 <br>
-[Github](https://github.com/Awenbocc) / [CV](https://www.baidu.com)
+[Github](https://github.com/Awenbocc) / [CV](assets/papers/cv_liubo.pdf)
 
 ## Research Interests
 <HR>
