@@ -4,7 +4,7 @@ layout: homepage
 
 # Bo Liu
 
-I am a first-year M.Phil. student at The Hong Kong Polytechnic University.
+I am a second-year M.Phil. student at The Hong Kong Polytechnic University.
 <br>
 Email: boliu [dot] kelvin [at] gmail [dot] com
 <br>
